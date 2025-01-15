@@ -7,7 +7,7 @@ ENV NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 ENV NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 ENV CLERK_PUBLISHABLE_KEY=pk_test_dGVuZGVyLWFwZS01LmNsZXJrLmFjY291bnRzLmRldiQ
 ENV DATABASE_URL="postgresql://neondb_owner:rBob4LhGsiE7@ep-weathered-waterfall-a5rvpzz7.us-east-2.aws.neon.tech/neondb?sslmode=require"
-ENV NEXT_PUBLIC_APP_URL="http://localhost:3000"
+ENV NEXT_PUBLIC_APP_URL="https://finance.leonardo-reis.com"
 
 
 WORKDIR /app
