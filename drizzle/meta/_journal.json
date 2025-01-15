@@ -1,0 +1,41 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1736368940540,
+      "tag": "0000_brief_purple_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1736374270880,
+      "tag": "0001_bright_viper",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1736374729692,
+      "tag": "0002_wealthy_venom",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1736523412183,
+      "tag": "0003_shallow_gertrude_yorkes",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1736523594361,
+      "tag": "0004_square_gauntlet",
+      "breakpoints": true
+    }
+  ]
+}
