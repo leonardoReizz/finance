@@ -2,6 +2,10 @@
 
 Este é um aplicativo financeiro desenvolvido com **Next.js 14** e **Node.js 20.12.1**. O objetivo do projeto é permitir o controle de entradas e saídas financeiras, organizadas por contas e categorias. Além disso, o app oferece um dashboard com um overview das movimentações financeiras de um determinado mês.
 
+#### Acesse em: https://finance.leonardo-reis.com
+![Image](https://github.com/user-attachments/assets/72ce2343-20e9-4cd6-9f1d-834eb73e30b7)
+
+
 ## Requisitos
 
 - **Node.js** versão 20.12.1
