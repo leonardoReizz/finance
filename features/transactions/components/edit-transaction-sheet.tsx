@@ -122,7 +122,7 @@ export const EditTransactionSheet = () => {
       <Sheet open={isOpen} onOpenChange={onClose}>
         <SheetContent>
           <SheetHeader>
-            <SheetTitle>Edit Category</SheetTitle>
+            <SheetTitle>Edit Transaction</SheetTitle>
             <SheetDescription>Edit an existing Transaction</SheetDescription>
           </SheetHeader>
           {isLoading ? (
