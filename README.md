@@ -38,9 +38,9 @@ O aplicativo usa o Clerk para autenticação de usuários. Você precisará conf
   - Adicione as variáveis de ambiente no arquivo .env
   
 ```bash
-NEXT_PUBLIC_CLERK_FRONTEND_API=<seu_frontend_api>
-CLERK_API_KEY=<seu_api_key>
-CLERK_API_URL=<seu_api_url>
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<clerk_key>
+CLERK_PUBLISHABLE_KEY=<clerk_key>
+CLERK_SECRET_KEY=<clert_secret>
 ```
 
 ### 3. Configuração do Banco de Dados
@@ -54,7 +54,14 @@ Este projeto utiliza o NeonDatabase (um serviço baseado em PostgreSQL).
 DATABASE_URL=<sua_url_de_conexao_postgresql>
 ```
 
-4. Instalar dependências
+Demais variaveis 
+```bash
+NEXT_PUBLIC_APP_URL=<frontend_url>
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+```
+
+### 4. Instalar dependências
 
 Após configurar o Clerk e o banco de dados, instale as dependências do projeto:
 
